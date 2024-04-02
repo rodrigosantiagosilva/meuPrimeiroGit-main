@@ -1,0 +1,96 @@
+.blocks {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: none;
+  margin: none;
+}
+.blocks li {
+  display: flex;
+  justify-content: center;
+}
+.blocks li:nth-child(1) {
+  background-color: rgb(117, 117, 255);
+  padding: 30px 35px;
+  border-radius: 20px;
+}
+.blocks li:nth-child(2) {
+  background-color: rgb(255, 109, 109);
+  padding: 30px 35px;
+  border-radius: 20px;
+}
+.blocks li:nth-child(3) {
+  background-color: rgb(231, 155, 67);
+  padding: 30px 35px;
+  border-radius: 20px;
+}
+
+body {
+  font-family: " Script ";
+  color: black;
+  transition: 2s;
+}
+body.dark {
+  background-color: black;
+  color: white;
+}
+body.gray {
+  background-color: gray;
+  color: rgb(11, 173, 165);
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu li {
+  color: white;
+}
+
+summary .games {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.button button {
+  padding: 10px 15px;
+  font-size: 10px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button button:hover {
+  background-color: purple;
+}
+.button button:focus {
+  outline: none;
+}
+.button button:active {
+  transform: translateY(-2px);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=styles.css.map */
